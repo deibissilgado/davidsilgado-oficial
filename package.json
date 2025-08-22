@@ -28,5 +28,11 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.12",
     "typescript": "^5"
+  },
+    "eslintConfig": {
+    "extends": "next/core-web-vitals",
+    "rules": {
+      "react/no-unescaped-entities": "off"
+    }
   }
 }
