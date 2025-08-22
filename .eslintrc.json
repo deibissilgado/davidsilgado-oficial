@@ -1,0 +1,7 @@
+// .eslintrc.json  para permitir comillas sin escapar:
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
+}
