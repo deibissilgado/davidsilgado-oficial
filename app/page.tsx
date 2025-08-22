@@ -2,13 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Music2, Youtube, Phone, Mail, MapPin, CalendarDays, ExternalLink, Instagram, Facebook, Twitter } from "lucide-react";
-// ————————————————————————————————————————
-// Landing page para un artista (David Silgado)
-// • Stack: React + Tailwind + framer-motion + lucide-react
-// • Uso: Copia este componente como app/page.tsx (Next.js App Router)
-//        o como pages/index.tsx (Pages Router). Asegúrate de tener Tailwind.
-//        También puedes previsualizarlo en este canvas.
-// ————————————————————————————————————————
 
 const releases = [
   { title: "Gracia Eterna", year: 2024, kind: "Single", links: { spotify: "https://open.spotify.com/intl-es/artist/3mjODOmn1RbJhS27A2I9f4", apple: "https://music.apple.com/es/album/gracia-eterna-single/1737621541", youtube: "https://www.youtube.com/watch?v=EvBc8LxmpCY" } },
@@ -29,7 +22,6 @@ const videos = [
 ];
 
 const socials = [
-  // { title: "Spotify", href: "https://open.spotify.com/intl-es/artist/3mjODOmn1RbJhS27A2I9f4", Icon: Spotify },
   { title: "YouTube", href: "https://www.youtube.com/c/DavidSilgado", Icon: Youtube },
   { title: "Instagram", href: "https://www.instagram.com/david.silgado/", Icon: Instagram },
   { title: "Facebook", href: "https://www.facebook.com/davidsilgadomusic/", Icon: Facebook },
@@ -120,8 +112,8 @@ export default function ArtistSite() {
             <h2 className="text-3xl md:text-4xl font-bold">Biografía</h2>
             <p className="text-white/80 leading-relaxed">
               David Silgado es un cantautor cristiano cuya música proclama fe, adoración y esperanza. Con sencillos como
-              <em> “Gracia Eterna”, “Gozo Eterno”, “No Podría Hacerlo”, “Vestido en Majestad”, “Soberano Dios”</em> y
-              <em> “Lluvia de Dios”</em>, ha compartido mensajes de vida y devoción a través de plataformas digitales y presentaciones en vivo.
+              <em> "Gracia Eterna", "Gozo Eterno", "No Podría Hacerlo", "Vestido en Majestad", "Soberano Dios"</em> y
+              <em> "Lluvia de Dios"</em>, ha compartido mensajes de vida y devoción a través de plataformas digitales y presentaciones en vivo.
             </p>
             <p className="text-white/70 leading-relaxed">
               Su proyecto destaca por letras bíblicas y arreglos contemporáneos, con influencias de pop y adoración moderna. La visión del ministerio:
