@@ -1,7 +1,7 @@
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Music2, Youtube, Phone, Mail, MapPin, CalendarDays, ExternalLink, Spotify, Instagram, Facebook, Twitter } from "lucide-react";
-
+import { Music2, Youtube, Phone, Mail, MapPin, CalendarDays, ExternalLink, Instagram, Facebook, Twitter } from "lucide-react";
 // ————————————————————————————————————————
 // Landing page para un artista (David Silgado)
 // • Stack: React + Tailwind + framer-motion + lucide-react
@@ -29,7 +29,7 @@ const videos = [
 ];
 
 const socials = [
-  { title: "Spotify", href: "https://open.spotify.com/intl-es/artist/3mjODOmn1RbJhS27A2I9f4", Icon: Spotify },
+  // { title: "Spotify", href: "https://open.spotify.com/intl-es/artist/3mjODOmn1RbJhS27A2I9f4", Icon: Spotify },
   { title: "YouTube", href: "https://www.youtube.com/c/DavidSilgado", Icon: Youtube },
   { title: "Instagram", href: "https://www.instagram.com/david.silgado/", Icon: Instagram },
   { title: "Facebook", href: "https://www.facebook.com/davidsilgadomusic/", Icon: Facebook },
