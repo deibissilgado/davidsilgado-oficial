@@ -111,9 +111,9 @@ export default function ArtistSite() {
           <div className="md:col-span-3 space-y-5">
             <h2 className="text-3xl md:text-4xl font-bold">Biografía</h2>
             <p className="text-white/80 leading-relaxed">
-              David Silgado es un cantautor cristiano cuya música proclama fe, adoración y esperanza. Con sencillos como
-              <em> "Gracia Eterna", "Gozo Eterno", "No Podría Hacerlo", "Vestido en Majestad", "Soberano Dios"</em> y
-              <em> "Lluvia de Dios"</em>, ha compartido mensajes de vida y devoción a través de plataformas digitales y presentaciones en vivo.
+              David Silgado es un cantautor cristiano cuya música proclama fe, adoración y esperanza. Con sencillos como{' '}
+              <em>Gracia Eterna, Gozo Eterno, No Podría Hacerlo, Vestido en Majestad, Soberano Dios</em> y{' '}
+              <em>Lluvia de Dios</em>, ha compartido mensajes de vida y devoción a través de plataformas digitales y presentaciones en vivo.
             </p>
             <p className="text-white/70 leading-relaxed">
               Su proyecto destaca por letras bíblicas y arreglos contemporáneos, con influencias de pop y adoración moderna. La visión del ministerio:
